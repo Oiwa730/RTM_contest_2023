@@ -1,0 +1,21 @@
+2023-11-27 03:21:52,661 file.manager INFO 2.0.1
+2023-11-27 03:21:52,661 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-27 03:21:52,661 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-27 03:21:52,661 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-27 03:21:52,661 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-27 03:21:52,661 file.manager INFO   All right reserved.
+2023-11-27 03:21:52,661 file.manager INFO Manager starting.
+2023-11-27 03:21:52,661 file.manager INFO Starting local logging.
+2023-11-27 03:21:52,677 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-27 03:21:56,807 file.ManagerServant INFO Master manager not found
+2023-11-27 03:21:56,814 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-27 03:21:56,823 file.manager INFO Component type conf file: photospot_enter.conf loaded.
+2023-11-27 03:21:56,823 file.ec_base INFO setRate(1000000.000000) done
+2023-11-27 03:21:56,823 file.ec_base INFO setRate(1000.000000) done
+2023-11-27 03:21:56,823 file.rtobject INFO 1 execution context was created.
+2023-11-27 03:21:56,823 file.rtobject INFO Initial active configuration set is default.
+2023-11-27 03:22:10,972 file.ManagerServant INFO Master manager not found
+2023-11-27 03:22:20,949 file.ManagerServant INFO Master manager not found
+2023-11-27 03:22:30,978 file.ManagerServant INFO Master manager not found
+2023-11-27 03:22:41,088 file.ManagerServant INFO Master manager not found
+2023-11-27 03:22:51,112 file.ManagerServant INFO Master manager not found

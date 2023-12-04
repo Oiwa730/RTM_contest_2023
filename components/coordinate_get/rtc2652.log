@@ -1,0 +1,35 @@
+2023-11-09 16:38:38,460 file.manager INFO 2.0.1
+2023-11-09 16:38:38,460 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 16:38:38,460 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-09 16:38:38,460 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 16:38:38,460 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-09 16:38:38,460 file.manager INFO   All right reserved.
+2023-11-09 16:38:38,460 file.manager INFO Manager starting.
+2023-11-09 16:38:38,460 file.manager INFO Starting local logging.
+2023-11-09 16:38:42,560 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-09 16:38:46,663 file.ManagerServant INFO Master manager not found
+2023-11-09 16:38:46,663 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-09 16:38:46,685 file.manager INFO Component type conf file: coordinate_get.conf loaded.
+2023-11-09 16:38:46,685 file.ec_base INFO setRate(1000000.000000) done
+2023-11-09 16:38:46,685 file.ec_base INFO setRate(1000.000000) done
+2023-11-09 16:38:46,694 file.rtobject INFO 1 execution context was created.
+2023-11-09 16:38:46,694 file.rtobject INFO Initial active configuration set is default.
+2023-11-09 16:39:00,805 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-09 16:39:04,875 file.ManagerServant INFO Master manager not found
+2023-11-09 16:39:10,844 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-09 16:39:14,932 file.ManagerServant INFO Master manager not found
+2023-11-09 16:39:19,929 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-09 16:39:19,929 file.manager.namingmanager INFO Connected to a name server: corba/localhost
+2023-11-09 16:39:28,035 file.ManagerServant ERROR Not found.
+2023-11-09 16:39:37,027 file.ManagerServant ERROR Unknown exception cought.
+2023-11-09 16:39:37,028 file.ManagerServant ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\ManagerServant.py", line 1631, in updateMasterManager
+    if master._non_existent():
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+omniORB.CORBA._omni_sys_exc: CORBA.COMM_FAILURE(omniORB.COMM_FAILURE_WaitingForReply, CORBA.COMPLETED_MAYBE)
+
+2023-11-09 16:40:37,423 file.OutPortConnector ERROR unkown error.
+2023-11-09 16:40:37,424 file.OutPortConnector ERROR unkown error.

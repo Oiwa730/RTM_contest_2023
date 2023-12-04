@@ -1,0 +1,30 @@
+2023-11-11 13:15:25,757 file.manager INFO 2.0.1
+2023-11-11 13:15:25,757 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:15:25,757 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-11 13:15:25,757 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:15:25,757 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-11 13:15:25,757 file.manager INFO   All right reserved.
+2023-11-11 13:15:25,757 file.manager INFO Manager starting.
+2023-11-11 13:15:25,757 file.manager INFO Starting local logging.
+2023-11-11 13:15:25,772 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-11 13:15:29,856 file.ManagerServant INFO Master manager not found
+2023-11-11 13:15:29,860 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-11 13:15:29,870 file.manager INFO Component type conf file: coordinate_get.conf loaded.
+2023-11-11 13:15:29,874 file.ec_base INFO setRate(1000000.000000) done
+2023-11-11 13:15:29,874 file.ec_base INFO setRate(1000.000000) done
+2023-11-11 13:15:29,875 file.rtobject INFO 1 execution context was created.
+2023-11-11 13:15:29,878 file.rtobject INFO Initial active configuration set is default.
+2023-11-11 13:15:43,979 file.ManagerServant INFO Master manager not found
+2023-11-11 13:15:54,059 file.ManagerServant INFO Master manager not found
+2023-11-11 13:16:04,024 file.ManagerServant INFO Master manager not found
+2023-11-11 13:16:10,167 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\coordinate_get\coordinate_get.py", line 212, in onExecute
+    self.lat = result["geometry"]["location"]["lat"]
+               ~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2023-11-11 13:16:14,047 file.ManagerServant INFO Master manager not found
+2023-11-11 13:16:20,268 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.

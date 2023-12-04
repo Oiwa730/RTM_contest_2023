@@ -1,0 +1,41 @@
+2023-11-11 14:32:20,407 file.manager INFO 2.0.1
+2023-11-11 14:32:20,407 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 14:32:20,407 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-11 14:32:20,407 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 14:32:20,407 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-11 14:32:20,407 file.manager INFO   All right reserved.
+2023-11-11 14:32:20,407 file.manager INFO Manager starting.
+2023-11-11 14:32:20,407 file.manager INFO Starting local logging.
+2023-11-11 14:32:20,424 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-11 14:32:24,507 file.ManagerServant INFO Master manager not found
+2023-11-11 14:32:24,507 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-11 14:32:24,531 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-11-11 14:32:24,531 file.ec_base INFO setRate(1000000.000000) done
+2023-11-11 14:32:24,531 file.ec_base INFO setRate(1000.000000) done
+2023-11-11 14:32:24,531 file.rtobject INFO 1 execution context was created.
+2023-11-11 14:32:24,531 file.rtobject INFO Initial active configuration set is default.
+2023-11-11 14:32:38,659 file.ManagerServant INFO Master manager not found
+2023-11-11 14:32:48,787 file.ManagerServant INFO Master manager not found
+2023-11-11 14:32:58,767 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:08,854 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:18,902 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:28,884 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:38,947 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:49,053 file.ManagerServant INFO Master manager not found
+2023-11-11 14:33:59,076 file.ManagerServant INFO Master manager not found
+2023-11-11 14:34:09,104 file.ManagerServant INFO Master manager not found
+2023-11-11 14:34:16,590 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\airphoto_get\airphoto_get.py", line 206, in onExecute
+    self.lat = float(self.data)[0]
+               ^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'list'
+
+2023-11-11 14:34:19,165 file.ManagerServant INFO Master manager not found
+2023-11-11 14:34:29,164 file.ManagerServant INFO Master manager not found
+2023-11-11 14:34:33,680 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-11-11 14:34:39,132 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-11-11 14:34:39,132 file.SdoServiceAdmin ERROR type  not exists.
+2023-11-11 14:34:39,301 file.ManagerServant INFO Master manager not found

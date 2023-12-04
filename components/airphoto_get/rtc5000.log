@@ -1,0 +1,61 @@
+2023-11-25 13:46:16,273 file.manager INFO 2.0.1
+2023-11-25 13:46:16,273 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-25 13:46:16,273 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-25 13:46:16,273 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-25 13:46:16,273 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-25 13:46:16,273 file.manager INFO   All right reserved.
+2023-11-25 13:46:16,273 file.manager INFO Manager starting.
+2023-11-25 13:46:16,273 file.manager INFO Starting local logging.
+2023-11-25 13:46:20,328 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:46:24,418 file.ManagerServant INFO Master manager not found
+2023-11-25 13:46:24,418 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-25 13:46:24,418 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-11-25 13:46:24,418 file.ec_base INFO setRate(1000000.000000) done
+2023-11-25 13:46:24,418 file.ec_base INFO setRate(1000.000000) done
+2023-11-25 13:46:24,418 file.rtobject INFO 1 execution context was created.
+2023-11-25 13:46:24,418 file.rtobject INFO Initial active configuration set is default.
+2023-11-25 13:46:34,494 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-25 13:46:34,494 file.manager.namingmanager INFO Connected to a name server: corba/localhost
+2023-11-25 13:46:38,592 file.ManagerServant INFO Master manager not found
+2023-11-25 13:46:48,591 file.ManagerServant INFO Master manager not found
+2023-11-25 13:46:58,628 file.ManagerServant INFO Master manager not found
+2023-11-25 13:47:08,772 file.ManagerServant INFO Master manager not found
+2023-11-25 13:47:18,831 file.ManagerServant INFO Master manager not found
+2023-11-25 13:47:22,555 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\airphoto_get\airphoto_get.py", line 253, in onExecute
+    download_image()
+  File "C:\Users\reore\workspace\airphoto_get\airphoto_get.py", line 245, in download_image
+    data = urllib.request.urlopen(url).read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1297, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1131, in putrequest
+    self._validate_path(url)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1231, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/maps/api/staticmap?center=35.7100627,139.8107004&maptype=terrain&size=1300x1300&sensor=false&zoom=17&markers=35.7100627,139.8107004&key=\x02' (found at least '\x02')
+
+2023-11-25 13:47:28,038 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-11-25 13:47:28,870 file.ManagerServant INFO Master manager not found

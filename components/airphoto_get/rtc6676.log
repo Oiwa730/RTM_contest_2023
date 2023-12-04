@@ -1,0 +1,54 @@
+2023-11-09 16:58:22,789 file.manager INFO 2.0.1
+2023-11-09 16:58:22,789 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 16:58:22,789 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-09 16:58:22,789 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 16:58:22,789 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-09 16:58:22,789 file.manager INFO   All right reserved.
+2023-11-09 16:58:22,789 file.manager INFO Manager starting.
+2023-11-09 16:58:22,789 file.manager INFO Starting local logging.
+2023-11-09 16:58:22,789 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-09 16:58:22,820 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-09 16:58:22,820 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-11-09 16:58:22,820 file.ec_base INFO setRate(1000000.000000) done
+2023-11-09 16:58:22,820 file.ec_base INFO setRate(1000.000000) done
+2023-11-09 16:58:22,820 file.rtobject INFO 1 execution context was created.
+2023-11-09 16:58:22,820 file.rtobject INFO Initial active configuration set is default.
+2023-11-09 16:59:40,859 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\airphoto_get\airphoto_get.py", line 251, in onExecute
+    download_image()
+  File "C:\Users\reore\workspace\airphoto_get\airphoto_get.py", line 243, in download_image
+    data = urllib.request.urlopen(url).read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1297, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1131, in putrequest
+    self._validate_path(url)
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1231, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/maps/api/staticmap?center=Tokyo Skytree,Tokyo Skytree&maptype=hybrid&size=640x480&sensor=false&zoom=17&markers=Tokyo Skytree,Tokyo Skytree&key=AIzaSyDgOJCVBqnEjfeZO1FBD-2sjbe-WNH9Mp4' (found at least ' ')
+
+2023-11-09 16:59:50,289 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-11-09 16:59:53,430 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-11-09 16:59:53,430 file.SdoServiceAdmin ERROR type  not exists.

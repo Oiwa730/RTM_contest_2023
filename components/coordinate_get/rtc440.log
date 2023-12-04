@@ -1,0 +1,39 @@
+2023-11-11 13:12:27,108 file.manager INFO 2.0.1
+2023-11-11 13:12:27,108 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:12:27,108 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-11 13:12:27,108 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:12:27,108 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-11 13:12:27,108 file.manager INFO   All right reserved.
+2023-11-11 13:12:27,108 file.manager INFO Manager starting.
+2023-11-11 13:12:27,108 file.manager INFO Starting local logging.
+2023-11-11 13:12:27,108 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-11 13:12:31,169 file.ManagerServant INFO Master manager not found
+2023-11-11 13:12:31,171 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-11 13:12:31,189 file.manager INFO Component type conf file: coordinate_get.conf loaded.
+2023-11-11 13:12:31,192 file.ec_base INFO setRate(1000000.000000) done
+2023-11-11 13:12:31,192 file.ec_base INFO setRate(1000.000000) done
+2023-11-11 13:12:31,193 file.rtobject INFO 1 execution context was created.
+2023-11-11 13:12:31,195 file.rtobject INFO Initial active configuration set is default.
+2023-11-11 13:12:45,298 file.ManagerServant INFO Master manager not found
+2023-11-11 13:12:48,051 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-11-11 13:12:48,051 file.SdoServiceAdmin ERROR type  not exists.
+2023-11-11 13:12:55,383 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:05,457 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:15,509 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:25,515 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:35,564 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:45,650 file.ManagerServant INFO Master manager not found
+2023-11-11 13:13:55,686 file.ManagerServant INFO Master manager not found
+2023-11-11 13:14:05,751 file.ManagerServant INFO Master manager not found
+2023-11-11 13:14:06,250 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\coordinate_get\coordinate_get.py", line 212, in onExecute
+    self.lat = result["geometry"]["location"]["lat"]
+               ~~~~~~^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2023-11-11 13:14:15,751 file.ManagerServant INFO Master manager not found
+2023-11-11 13:14:25,205 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-11-11 13:14:25,743 file.ManagerServant INFO Master manager not found
