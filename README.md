@@ -5,4 +5,4 @@
  
 ## マニュアル
 [マニュアル]
--https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/manual.pdf)
+- https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/manual.pdf
