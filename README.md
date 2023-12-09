@@ -12,5 +12,5 @@
 - csv出力
  
 ## マニュアル
-- [https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/manual.pdf
-](https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB2023.pdf)https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB2023.pdf
+- [[https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/manual.pdf
+]](https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB2023.pdf)https://github.com/Oiwa730/RTM_contest_2023/blob/main/manual/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB2023.pdf
