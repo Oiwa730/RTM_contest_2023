@@ -1,0 +1,25 @@
+2023-12-10 12:26:42,029 file.manager INFO 2.0.1
+2023-12-10 12:26:42,029 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 12:26:42,029 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-10 12:26:42,029 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 12:26:42,029 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-10 12:26:42,029 file.manager INFO   All right reserved.
+2023-12-10 12:26:42,029 file.manager INFO Manager starting.
+2023-12-10 12:26:42,029 file.manager INFO Starting local logging.
+2023-12-10 12:26:42,045 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-10 12:26:46,124 file.ManagerServant INFO Master manager not found
+2023-12-10 12:26:46,124 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-10 12:26:46,139 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-12-10 12:26:46,139 file.ec_base INFO setRate(1000000.000000) done
+2023-12-10 12:26:46,139 file.ec_base INFO setRate(1000.000000) done
+2023-12-10 12:26:46,139 file.rtobject INFO 1 execution context was created.
+2023-12-10 12:26:46,139 file.rtobject INFO Initial active configuration set is default.
+2023-12-10 12:27:00,309 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:10,262 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:20,308 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:30,363 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:40,440 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:50,463 file.ManagerServant INFO Master manager not found
+2023-12-10 12:27:57,111 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-10 12:27:57,112 file.SdoServiceAdmin ERROR type  not exists.
+2023-12-10 12:28:00,497 file.ManagerServant INFO Master manager not found

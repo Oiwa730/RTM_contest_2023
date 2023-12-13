@@ -1,0 +1,54 @@
+# sarch_spot CMake config file
+#
+# This file sets the following variables:
+# sarch_spot_FOUND - Always TRUE.
+# sarch_spot_INCLUDE_DIRS - Directories containing the sarch_spot include files.
+# sarch_spot_IDL_DIRS - Directories containing the sarch_spot IDL files.
+# sarch_spot_LIBRARIES - Libraries needed to use sarch_spot.
+# sarch_spot_DEFINITIONS - Compiler flags for sarch_spot.
+# sarch_spot_VERSION - The version of sarch_spot found.
+# sarch_spot_VERSION_MAJOR - The major version of sarch_spot found.
+# sarch_spot_VERSION_MINOR - The minor version of sarch_spot found.
+# sarch_spot_VERSION_REVISION - The revision version of sarch_spot found.
+# sarch_spot_VERSION_CANDIDATE - The candidate version of sarch_spot found.
+
+message(STATUS "Found sarch_spot-@PROJECT_VERSION@")
+set(sarch_spot_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(sarch_spot_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(sarch_spot_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(sarch_spot_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(sarch_spot_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(sarch_spot_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(sarch_spot_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(sarch_spot_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(sarch_spot_VERSION @PROJECT_VERSION@)
+set(sarch_spot_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(sarch_spot_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(sarch_spot_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(sarch_spot_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

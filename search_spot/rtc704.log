@@ -1,0 +1,28 @@
+2023-12-13 00:21:25,426 file.manager INFO 2.0.1
+2023-12-13 00:21:25,426 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 00:21:25,426 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-13 00:21:25,426 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 00:21:25,426 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-13 00:21:25,426 file.manager INFO   All right reserved.
+2023-12-13 00:21:25,426 file.manager INFO Manager starting.
+2023-12-13 00:21:25,426 file.manager INFO Starting local logging.
+2023-12-13 00:21:25,426 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-13 00:21:29,482 file.ManagerServant INFO Master manager not found
+2023-12-13 00:21:29,482 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-13 00:21:29,482 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-13 00:21:29,482 file.ec_base INFO setRate(1000000.000000) done
+2023-12-13 00:21:29,482 file.ec_base INFO setRate(1000.000000) done
+2023-12-13 00:21:29,482 file.rtobject INFO 1 execution context was created.
+2023-12-13 00:21:29,482 file.rtobject INFO Initial active configuration set is default.
+2023-12-13 00:21:43,602 file.ManagerServant INFO Master manager not found
+2023-12-13 00:21:53,694 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:03,727 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:13,795 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:23,854 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:33,909 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:43,979 file.ManagerServant INFO Master manager not found
+2023-12-13 00:22:54,052 file.ManagerServant INFO Master manager not found
+2023-12-13 00:23:04,131 file.ManagerServant INFO Master manager not found
+2023-12-13 00:23:14,164 file.ManagerServant INFO Master manager not found
+2023-12-13 00:23:24,244 file.ManagerServant INFO Master manager not found
+2023-12-13 00:23:34,298 file.ManagerServant INFO Master manager not found

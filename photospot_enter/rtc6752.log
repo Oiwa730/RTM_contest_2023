@@ -1,0 +1,36 @@
+2023-12-13 01:53:51,771 file.manager INFO 2.0.1
+2023-12-13 01:53:51,771 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 01:53:51,771 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-13 01:53:51,771 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 01:53:51,771 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-13 01:53:51,771 file.manager INFO   All right reserved.
+2023-12-13 01:53:51,771 file.manager INFO Manager starting.
+2023-12-13 01:53:51,771 file.manager INFO Starting local logging.
+2023-12-13 01:53:51,779 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-13 01:53:55,873 file.ManagerServant INFO Master manager not found
+2023-12-13 01:53:55,873 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-13 01:53:55,878 file.manager INFO Component type conf file: photospot_enter.conf loaded.
+2023-12-13 01:53:55,878 file.ec_base INFO setRate(1000000.000000) done
+2023-12-13 01:53:55,878 file.ec_base INFO setRate(1000.000000) done
+2023-12-13 01:53:55,878 file.rtobject INFO 1 execution context was created.
+2023-12-13 01:53:55,878 file.rtobject INFO Initial active configuration set is default.
+2023-12-13 01:54:10,034 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:20,088 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:30,140 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:40,189 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:50,235 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:00,310 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:10,366 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:20,473 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:30,436 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:40,478 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:50,526 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:00,639 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:10,675 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:20,714 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:30,771 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:40,841 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:41,492 file.ec_base ERROR The component is not responding.
+2023-12-13 01:56:41,493 file.ec_base ERROR Unknown error: Invalid state transition.
+2023-12-13 01:56:50,913 file.ManagerServant INFO Master manager not found
+2023-12-13 01:57:00,947 file.ManagerServant INFO Master manager not found

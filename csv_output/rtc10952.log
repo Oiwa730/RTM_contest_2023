@@ -1,0 +1,36 @@
+2023-12-12 22:26:19,850 file.manager INFO 2.0.1
+2023-12-12 22:26:19,850 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:26:19,850 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 22:26:19,850 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:26:19,850 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 22:26:19,850 file.manager INFO   All right reserved.
+2023-12-12 22:26:19,850 file.manager INFO Manager starting.
+2023-12-12 22:26:19,850 file.manager INFO Starting local logging.
+2023-12-12 22:26:19,865 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 22:26:23,923 file.ManagerServant INFO Master manager not found
+2023-12-12 22:26:23,923 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 22:26:23,938 file.manager INFO Component type conf file: csv_output.conf loaded.
+2023-12-12 22:26:23,938 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 22:26:23,938 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 22:26:23,938 file.rtobject INFO 1 execution context was created.
+2023-12-12 22:26:23,938 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 22:26:38,063 file.ManagerServant INFO Master manager not found
+2023-12-12 22:26:48,091 file.ManagerServant INFO Master manager not found
+2023-12-12 22:26:58,190 file.ManagerServant INFO Master manager not found
+2023-12-12 22:27:08,243 file.ManagerServant INFO Master manager not found
+2023-12-12 22:27:18,264 file.ManagerServant INFO Master manager not found
+2023-12-12 22:27:21,739 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-12 22:27:21,739 file.SdoServiceAdmin ERROR type  not exists.
+2023-12-12 22:27:28,297 file.ManagerServant INFO Master manager not found
+2023-12-12 22:27:35,984 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\csv_output\csv_output.py", line 200, in onExecute
+    for i in range(0, len(original_list), 2):
+                          ^^^^^^^^^^^^^
+NameError: name 'original_list' is not defined
+
+2023-12-12 22:27:38,383 file.ManagerServant INFO Master manager not found
+2023-12-12 22:27:40,889 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-12-12 22:27:48,443 file.ManagerServant INFO Master manager not found

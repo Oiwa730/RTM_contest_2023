@@ -1,0 +1,82 @@
+2023-11-25 13:20:11,236 file.manager INFO 2.0.1
+2023-11-25 13:20:11,236 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-25 13:20:11,236 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-25 13:20:11,236 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-25 13:20:11,236 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-25 13:20:11,236 file.manager INFO   All right reserved.
+2023-11-25 13:20:11,236 file.manager INFO Manager starting.
+2023-11-25 13:20:11,236 file.manager INFO Starting local logging.
+2023-11-25 13:20:11,236 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-25 13:20:15,394 file.ManagerServant INFO Master manager not found
+2023-11-25 13:20:15,396 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-25 13:20:15,408 file.manager INFO Component type conf file: photospot_enter.conf loaded.
+2023-11-25 13:20:15,411 file.ec_base INFO setRate(1000000.000000) done
+2023-11-25 13:20:15,411 file.ec_base INFO setRate(1000.000000) done
+2023-11-25 13:20:15,412 file.rtobject INFO 1 execution context was created.
+2023-11-25 13:20:15,413 file.rtobject INFO Initial active configuration set is default.
+2023-11-25 13:20:29,523 file.ManagerServant INFO Master manager not found
+2023-11-25 13:20:38,448 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-11-25 13:20:38,448 file.SdoServiceAdmin ERROR type  not exists.
+2023-11-25 13:20:39,515 file.ManagerServant INFO Master manager not found
+2023-11-25 13:20:49,671 file.ManagerServant INFO Master manager not found
+2023-11-25 13:20:59,733 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:09,778 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:11,012 file.OutPortConnector ERROR unkown error.
+2023-11-25 13:21:19,813 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:29,872 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:39,931 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:49,962 file.ManagerServant INFO Master manager not found
+2023-11-25 13:21:59,958 file.ManagerServant INFO Master manager not found
+2023-11-25 13:22:10,033 file.ManagerServant INFO Master manager not found
+2023-11-25 13:22:20,042 file.ManagerServant INFO Master manager not found
+2023-11-25 13:22:30,041 file.ManagerServant INFO Master manager not found
+2023-11-25 13:22:40,068 file.ManagerServant INFO Master manager not found
+2023-11-25 13:22:50,080 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:00,089 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:10,101 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:20,184 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:30,231 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:40,288 file.ManagerServant INFO Master manager not found
+2023-11-25 13:23:50,371 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:00,405 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:10,430 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:20,440 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:30,446 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:40,494 file.ManagerServant INFO Master manager not found
+2023-11-25 13:24:50,489 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:00,516 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:10,519 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:20,522 file.manager.namingmanager INFO Name server: localhost (corba) disappeared.
+2023-11-25 13:25:24,595 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:30,577 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:25:34,641 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:40,625 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:25:44,698 file.ManagerServant INFO Master manager not found
+2023-11-25 13:25:50,693 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:25:54,769 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:00,785 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:04,900 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:10,765 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:14,834 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:20,798 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:24,875 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:30,851 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:34,910 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:40,900 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:44,957 file.ManagerServant INFO Master manager not found
+2023-11-25 13:26:50,949 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:26:55,035 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:00,979 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:27:05,072 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:11,080 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:27:15,155 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:21,160 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:27:25,255 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:31,196 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:27:35,300 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:41,233 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:27:45,327 file.ManagerServant INFO Master manager not found
+2023-11-25 13:27:51,250 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:30:20,093 file.ManagerServant INFO Master manager not found
+2023-11-25 13:30:24,275 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-25 13:30:28,354 file.ManagerServant INFO Master manager not found

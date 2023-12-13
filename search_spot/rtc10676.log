@@ -1,0 +1,36 @@
+2023-12-12 22:47:57,111 file.manager INFO 2.0.1
+2023-12-12 22:47:57,111 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:47:57,111 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 22:47:57,111 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:47:57,111 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 22:47:57,111 file.manager INFO   All right reserved.
+2023-12-12 22:47:57,127 file.manager INFO Manager starting.
+2023-12-12 22:47:57,127 file.manager INFO Starting local logging.
+2023-12-12 22:47:57,127 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 22:48:01,180 file.ManagerServant INFO Master manager not found
+2023-12-12 22:48:01,180 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 22:48:01,180 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-12 22:48:01,180 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 22:48:01,180 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 22:48:01,180 file.rtobject INFO 1 execution context was created.
+2023-12-12 22:48:01,180 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 22:48:15,287 file.ManagerServant INFO Master manager not found
+2023-12-12 22:48:25,365 file.ManagerServant INFO Master manager not found
+2023-12-12 22:48:35,404 file.ManagerServant INFO Master manager not found
+2023-12-12 22:48:40,639 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-12 22:48:40,639 file.SdoServiceAdmin ERROR type  not exists.
+2023-12-12 22:48:45,437 file.ManagerServant INFO Master manager not found
+2023-12-12 22:48:55,489 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:05,545 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:15,619 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:15,678 file.OutPortConnector ERROR unkown error.
+2023-12-12 22:49:25,669 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:35,781 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:45,830 file.ManagerServant INFO Master manager not found
+2023-12-12 22:49:55,836 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:05,849 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:15,982 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:26,026 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:36,034 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:46,166 file.ManagerServant INFO Master manager not found
+2023-12-12 22:50:56,208 file.ManagerServant INFO Master manager not found

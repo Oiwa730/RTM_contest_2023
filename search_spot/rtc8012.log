@@ -1,0 +1,26 @@
+2023-12-12 23:07:53,886 file.manager INFO 2.0.1
+2023-12-12 23:07:53,886 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 23:07:53,886 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 23:07:53,886 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 23:07:53,886 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 23:07:53,886 file.manager INFO   All right reserved.
+2023-12-12 23:07:53,886 file.manager INFO Manager starting.
+2023-12-12 23:07:53,886 file.manager INFO Starting local logging.
+2023-12-12 23:07:53,901 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 23:07:57,942 file.ManagerServant INFO Master manager not found
+2023-12-12 23:07:57,942 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 23:07:57,947 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-12 23:07:57,947 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 23:07:57,947 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 23:07:57,947 file.rtobject INFO 1 execution context was created.
+2023-12-12 23:07:57,947 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 23:08:12,059 file.ManagerServant INFO Master manager not found
+2023-12-12 23:08:22,108 file.ManagerServant INFO Master manager not found
+2023-12-12 23:08:32,156 file.ManagerServant INFO Master manager not found
+2023-12-12 23:08:42,200 file.ManagerServant INFO Master manager not found
+2023-12-12 23:08:52,331 file.ManagerServant INFO Master manager not found
+2023-12-12 23:09:01,621 file.OutPortConnector ERROR unkown error.
+2023-12-12 23:09:02,348 file.ManagerServant INFO Master manager not found
+2023-12-12 23:09:12,406 file.ManagerServant INFO Master manager not found
+2023-12-12 23:09:22,430 file.ManagerServant INFO Master manager not found
+2023-12-12 23:09:32,414 file.ManagerServant INFO Master manager not found

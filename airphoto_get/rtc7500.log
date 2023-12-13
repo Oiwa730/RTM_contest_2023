@@ -1,0 +1,30 @@
+2023-12-10 22:23:08,512 file.manager INFO 2.0.1
+2023-12-10 22:23:08,512 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 22:23:08,512 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-10 22:23:08,512 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 22:23:08,512 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-10 22:23:08,512 file.manager INFO   All right reserved.
+2023-12-10 22:23:08,512 file.manager INFO Manager starting.
+2023-12-10 22:23:08,512 file.manager INFO Starting local logging.
+2023-12-10 22:23:08,528 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-10 22:23:12,602 file.ManagerServant INFO Master manager not found
+2023-12-10 22:23:12,602 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-10 22:23:12,618 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-12-10 22:23:12,618 file.ec_base INFO setRate(1000000.000000) done
+2023-12-10 22:23:12,618 file.ec_base INFO setRate(1000.000000) done
+2023-12-10 22:23:12,618 file.rtobject INFO 1 execution context was created.
+2023-12-10 22:23:12,618 file.rtobject INFO Initial active configuration set is default.
+2023-12-10 22:23:26,774 file.ManagerServant INFO Master manager not found
+2023-12-10 22:23:36,810 file.ManagerServant INFO Master manager not found
+2023-12-10 22:23:46,863 file.ManagerServant INFO Master manager not found
+2023-12-10 22:23:56,908 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:06,963 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:17,045 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:27,121 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:37,167 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:47,222 file.ManagerServant INFO Master manager not found
+2023-12-10 22:24:57,228 file.ManagerServant INFO Master manager not found
+2023-12-10 22:25:07,243 file.ManagerServant INFO Master manager not found
+2023-12-10 22:25:15,255 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-10 22:25:15,255 file.SdoServiceAdmin ERROR type  not exists.
+2023-12-10 22:25:17,274 file.ManagerServant INFO Master manager not found

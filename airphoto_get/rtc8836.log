@@ -1,0 +1,26 @@
+2023-12-10 11:43:38,449 file.manager INFO 2.0.1
+2023-12-10 11:43:38,449 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 11:43:38,449 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-10 11:43:38,449 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 11:43:38,449 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-10 11:43:38,449 file.manager INFO   All right reserved.
+2023-12-10 11:43:38,449 file.manager INFO Manager starting.
+2023-12-10 11:43:38,449 file.manager INFO Starting local logging.
+2023-12-10 11:43:42,569 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-10 11:43:46,645 file.ManagerServant INFO Master manager not found
+2023-12-10 11:43:46,647 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-10 11:43:46,660 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-12-10 11:43:46,661 file.ec_base INFO setRate(1000000.000000) done
+2023-12-10 11:43:46,661 file.ec_base INFO setRate(1000.000000) done
+2023-12-10 11:43:46,663 file.rtobject INFO 1 execution context was created.
+2023-12-10 11:43:46,666 file.rtobject INFO Initial active configuration set is default.
+2023-12-10 11:44:00,831 file.ManagerServant INFO Master manager not found
+2023-12-10 11:44:10,806 file.ManagerServant INFO Master manager not found
+2023-12-10 11:44:20,848 file.ManagerServant INFO Master manager not found
+2023-12-10 11:44:30,855 file.ManagerServant INFO Master manager not found
+2023-12-10 11:44:40,989 file.ManagerServant INFO Master manager not found
+2023-12-10 11:44:50,992 file.ManagerServant INFO Master manager not found
+2023-12-10 11:45:01,083 file.ManagerServant INFO Master manager not found
+2023-12-10 11:45:11,074 file.ManagerServant INFO Master manager not found
+2023-12-10 11:45:21,134 file.ManagerServant INFO Master manager not found
+2023-12-10 11:45:31,152 file.ManagerServant INFO Master manager not found

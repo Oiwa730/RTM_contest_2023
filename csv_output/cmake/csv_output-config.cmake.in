@@ -1,0 +1,54 @@
+# csv_output CMake config file
+#
+# This file sets the following variables:
+# csv_output_FOUND - Always TRUE.
+# csv_output_INCLUDE_DIRS - Directories containing the csv_output include files.
+# csv_output_IDL_DIRS - Directories containing the csv_output IDL files.
+# csv_output_LIBRARIES - Libraries needed to use csv_output.
+# csv_output_DEFINITIONS - Compiler flags for csv_output.
+# csv_output_VERSION - The version of csv_output found.
+# csv_output_VERSION_MAJOR - The major version of csv_output found.
+# csv_output_VERSION_MINOR - The minor version of csv_output found.
+# csv_output_VERSION_REVISION - The revision version of csv_output found.
+# csv_output_VERSION_CANDIDATE - The candidate version of csv_output found.
+
+message(STATUS "Found csv_output-@PROJECT_VERSION@")
+set(csv_output_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(csv_output_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(csv_output_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(csv_output_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(csv_output_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(csv_output_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(csv_output_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(csv_output_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(csv_output_VERSION @PROJECT_VERSION@)
+set(csv_output_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(csv_output_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(csv_output_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(csv_output_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

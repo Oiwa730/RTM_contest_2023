@@ -1,0 +1,33 @@
+2023-11-09 22:33:16,764 file.manager INFO 2.0.1
+2023-11-09 22:33:16,764 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 22:33:16,764 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-09 22:33:16,764 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-09 22:33:16,764 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-09 22:33:16,764 file.manager INFO   All right reserved.
+2023-11-09 22:33:16,764 file.manager INFO Manager starting.
+2023-11-09 22:33:16,764 file.manager INFO Starting local logging.
+2023-11-09 22:33:16,764 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-09 22:33:20,865 file.ManagerServant INFO Master manager not found
+2023-11-09 22:33:20,880 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-09 22:33:20,880 file.manager INFO Component type conf file: coordinate_get.conf loaded.
+2023-11-09 22:33:20,880 file.ec_base INFO setRate(1000000.000000) done
+2023-11-09 22:33:20,880 file.ec_base INFO setRate(1000.000000) done
+2023-11-09 22:33:20,880 file.rtobject INFO 1 execution context was created.
+2023-11-09 22:33:20,880 file.rtobject INFO Initial active configuration set is default.
+2023-11-09 22:33:35,050 file.ManagerServant INFO Master manager not found
+2023-11-09 22:33:45,037 file.ManagerServant INFO Master manager not found
+2023-11-09 22:33:55,108 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:05,134 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:15,185 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:15,932 file.OutPortConnector ERROR unkown error.
+2023-11-09 22:34:25,214 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:35,229 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:37,940 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-11-09 22:34:37,941 file.SdoServiceAdmin ERROR type  not exists.
+2023-11-09 22:34:45,454 file.ManagerServant INFO Master manager not found
+2023-11-09 22:34:55,505 file.ManagerServant INFO Master manager not found
+2023-11-09 22:35:05,629 file.ManagerServant INFO Master manager not found
+2023-11-09 22:35:15,719 file.ManagerServant INFO Master manager not found
+2023-11-09 22:35:25,677 file.ManagerServant INFO Master manager not found
+2023-11-09 22:35:35,780 file.ManagerServant INFO Master manager not found
+2023-11-09 22:35:45,634 file.ManagerServant INFO Master manager not found

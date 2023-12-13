@@ -1,0 +1,30 @@
+2023-12-13 00:33:36,565 file.manager INFO 2.0.1
+2023-12-13 00:33:36,565 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 00:33:36,565 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-13 00:33:36,565 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 00:33:36,565 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-13 00:33:36,565 file.manager INFO   All right reserved.
+2023-12-13 00:33:36,565 file.manager INFO Manager starting.
+2023-12-13 00:33:36,565 file.manager INFO Starting local logging.
+2023-12-13 00:33:36,580 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-13 00:33:40,664 file.ManagerServant INFO Master manager not found
+2023-12-13 00:33:40,664 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-13 00:33:40,664 file.manager INFO Component type conf file: mark_output.conf loaded.
+2023-12-13 00:33:40,664 file.ec_base INFO setRate(1000000.000000) done
+2023-12-13 00:33:40,664 file.ec_base INFO setRate(1000.000000) done
+2023-12-13 00:33:40,664 file.rtobject INFO 1 execution context was created.
+2023-12-13 00:33:40,664 file.rtobject INFO Initial active configuration set is default.
+2023-12-13 00:33:54,871 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:04,965 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:15,043 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:25,026 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:35,081 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:45,123 file.ManagerServant INFO Master manager not found
+2023-12-13 00:34:55,171 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:05,162 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:15,208 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:25,220 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:35,249 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:45,269 file.ManagerServant INFO Master manager not found
+2023-12-13 00:35:55,334 file.ManagerServant INFO Master manager not found
+2023-12-13 00:36:05,349 file.ManagerServant INFO Master manager not found

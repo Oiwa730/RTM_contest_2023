@@ -1,0 +1,37 @@
+2023-12-13 01:53:43,702 file.manager INFO 2.0.1
+2023-12-13 01:53:43,702 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 01:53:43,702 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-13 01:53:43,702 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-13 01:53:43,702 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-13 01:53:43,702 file.manager INFO   All right reserved.
+2023-12-13 01:53:43,702 file.manager INFO Manager starting.
+2023-12-13 01:53:43,702 file.manager INFO Starting local logging.
+2023-12-13 01:53:43,716 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-13 01:53:47,743 file.ManagerServant INFO Master manager not found
+2023-12-13 01:53:47,743 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-13 01:53:47,743 file.manager INFO Component type conf file: csv_output.conf loaded.
+2023-12-13 01:53:47,743 file.ec_base INFO setRate(1000000.000000) done
+2023-12-13 01:53:47,743 file.ec_base INFO setRate(1000.000000) done
+2023-12-13 01:53:47,743 file.rtobject INFO 1 execution context was created.
+2023-12-13 01:53:47,743 file.rtobject INFO Initial active configuration set is default.
+2023-12-13 01:54:01,828 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:11,871 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:20,012 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-13 01:54:20,012 file.SdoServiceAdmin ERROR type  not exists.
+2023-12-13 01:54:21,870 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:31,956 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:42,004 file.ManagerServant INFO Master manager not found
+2023-12-13 01:54:52,074 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:02,115 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:12,173 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:22,236 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:32,268 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:42,304 file.ManagerServant INFO Master manager not found
+2023-12-13 01:55:52,341 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:02,409 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:12,481 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:22,507 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:32,590 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:42,624 file.ManagerServant INFO Master manager not found
+2023-12-13 01:56:52,705 file.ManagerServant INFO Master manager not found
+2023-12-13 01:57:02,753 file.ManagerServant INFO Master manager not found

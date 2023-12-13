@@ -1,0 +1,26 @@
+2023-11-11 13:47:06,720 file.manager INFO 2.0.1
+2023-11-11 13:47:06,720 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:47:06,720 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-11 13:47:06,720 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 13:47:06,720 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-11 13:47:06,720 file.manager INFO   All right reserved.
+2023-11-11 13:47:06,720 file.manager INFO Manager starting.
+2023-11-11 13:47:06,720 file.manager INFO Starting local logging.
+2023-11-11 13:47:10,806 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-11-11 13:47:14,924 file.ManagerServant INFO Master manager not found
+2023-11-11 13:47:14,924 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-11 13:47:14,938 file.manager INFO Component type conf file: coordinate_get.conf loaded.
+2023-11-11 13:47:14,938 file.ec_base INFO setRate(1000000.000000) done
+2023-11-11 13:47:14,938 file.ec_base INFO setRate(1000.000000) done
+2023-11-11 13:47:14,938 file.rtobject INFO 1 execution context was created.
+2023-11-11 13:47:14,938 file.rtobject INFO Initial active configuration set is default.
+2023-11-11 13:47:25,016 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-11 13:47:25,016 file.manager.namingmanager INFO Connected to a name server: corba/localhost
+2023-11-11 13:47:29,080 file.ManagerServant INFO Master manager not found
+2023-11-11 13:47:39,125 file.ManagerServant INFO Master manager not found
+2023-11-11 13:47:49,200 file.ManagerServant INFO Master manager not found
+2023-11-11 13:47:59,251 file.ManagerServant INFO Master manager not found
+2023-11-11 13:48:05,588 file.OutPortConnector ERROR unkown error.
+2023-11-11 13:48:09,263 file.ManagerServant INFO Master manager not found
+2023-11-11 13:48:19,279 file.ManagerServant INFO Master manager not found
+2023-11-11 13:48:29,315 file.ManagerServant INFO Master manager not found

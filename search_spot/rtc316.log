@@ -1,0 +1,32 @@
+2023-12-12 22:16:58,651 file.manager INFO 2.0.1
+2023-12-12 22:16:58,651 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:16:58,651 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 22:16:58,651 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 22:16:58,651 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 22:16:58,651 file.manager INFO   All right reserved.
+2023-12-12 22:16:58,651 file.manager INFO Manager starting.
+2023-12-12 22:16:58,651 file.manager INFO Starting local logging.
+2023-12-12 22:17:02,736 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-12-12 22:17:06,795 file.ManagerServant INFO Master manager not found
+2023-12-12 22:17:06,795 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 22:17:06,795 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-12 22:17:06,795 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 22:17:06,795 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 22:17:06,810 file.rtobject INFO 1 execution context was created.
+2023-12-12 22:17:06,810 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 22:17:17,857 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 22:17:17,857 file.manager.namingmanager INFO Connected to a name server: corba/localhost
+2023-12-12 22:17:21,957 file.ManagerServant INFO Master manager not found
+2023-12-12 22:17:31,025 file.ManagerServant INFO Master manager not found
+2023-12-12 22:17:41,091 file.ManagerServant INFO Master manager not found
+2023-12-12 22:17:51,162 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:01,203 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:11,274 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:21,331 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:31,424 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:41,456 file.ManagerServant INFO Master manager not found
+2023-12-12 22:18:51,485 file.ManagerServant INFO Master manager not found
+2023-12-12 22:19:01,520 file.ManagerServant INFO Master manager not found
+2023-12-12 22:19:11,570 file.ManagerServant INFO Master manager not found
+2023-12-12 22:19:16,053 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-12 22:19:16,054 file.SdoServiceAdmin ERROR type  not exists.

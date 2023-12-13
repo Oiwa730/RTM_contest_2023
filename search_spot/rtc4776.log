@@ -1,0 +1,29 @@
+2023-12-12 15:32:11,345 file.manager INFO 2.0.1
+2023-12-12 15:32:11,345 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 15:32:11,345 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 15:32:11,345 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 15:32:11,345 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 15:32:11,345 file.manager INFO   All right reserved.
+2023-12-12 15:32:11,345 file.manager INFO Manager starting.
+2023-12-12 15:32:11,345 file.manager INFO Starting local logging.
+2023-12-12 15:32:11,345 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 15:32:15,448 file.ManagerServant INFO Master manager not found
+2023-12-12 15:32:15,458 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 15:32:15,464 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-12 15:32:15,464 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 15:32:15,464 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 15:32:15,464 file.rtobject INFO 1 execution context was created.
+2023-12-12 15:32:15,480 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 15:32:29,581 file.ManagerServant INFO Master manager not found
+2023-12-12 15:32:39,651 file.ManagerServant INFO Master manager not found
+2023-12-12 15:32:49,693 file.ManagerServant INFO Master manager not found
+2023-12-12 15:32:59,713 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:09,765 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:19,805 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:29,827 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:39,869 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:49,283 file.ec_base ERROR The component is not responding.
+2023-12-12 15:33:49,284 file.ec_base ERROR Unknown error: Invalid state transition.
+2023-12-12 15:33:49,888 file.ManagerServant INFO Master manager not found
+2023-12-12 15:33:51,613 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2023-12-12 15:33:51,613 file.SdoServiceAdmin ERROR type  not exists.

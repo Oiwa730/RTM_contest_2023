@@ -1,0 +1,70 @@
+2023-12-12 23:45:31,757 file.manager INFO 2.0.1
+2023-12-12 23:45:31,757 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 23:45:31,757 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 23:45:31,757 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 23:45:31,757 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 23:45:31,757 file.manager INFO   All right reserved.
+2023-12-12 23:45:31,757 file.manager INFO Manager starting.
+2023-12-12 23:45:31,757 file.manager INFO Starting local logging.
+2023-12-12 23:45:31,757 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 23:45:35,807 file.ManagerServant INFO Master manager not found
+2023-12-12 23:45:35,807 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 23:45:35,807 file.manager INFO Component type conf file: sarch_spot.conf loaded.
+2023-12-12 23:45:35,807 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 23:45:35,807 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 23:45:35,807 file.rtobject INFO 1 execution context was created.
+2023-12-12 23:45:35,823 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 23:45:49,924 file.ManagerServant INFO Master manager not found
+2023-12-12 23:45:59,982 file.ManagerServant INFO Master manager not found
+2023-12-12 23:46:10,052 file.ManagerServant INFO Master manager not found
+2023-12-12 23:46:20,104 file.ManagerServant INFO Master manager not found
+2023-12-12 23:46:30,164 file.ManagerServant INFO Master manager not found
+2023-12-12 23:46:40,227 file.ManagerServant INFO Master manager not found
+2023-12-12 23:46:50,308 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:00,377 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:03,095 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\reore\AppData\Local\Programs\Python\Python311\Lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reore\workspace\sarch_spot\sarch_spot.py", line 328, in onExecute
+    print(flat_list[0] + "‚±‚ñ‚É‚¿‚Í")
+          ~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+2023-12-12 23:47:08,946 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2023-12-12 23:47:10,369 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:20,425 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:30,411 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:40,559 file.ManagerServant INFO Master manager not found
+2023-12-12 23:47:50,588 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:00,647 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:10,725 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:20,767 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:30,850 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:40,884 file.ManagerServant INFO Master manager not found
+2023-12-12 23:48:50,902 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:00,949 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:10,980 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:20,985 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:31,041 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:41,067 file.ManagerServant INFO Master manager not found
+2023-12-12 23:49:51,117 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:01,182 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:11,217 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:21,288 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:31,278 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:41,424 file.ManagerServant INFO Master manager not found
+2023-12-12 23:50:51,474 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:01,533 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:11,566 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:21,602 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:31,667 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:41,709 file.ManagerServant INFO Master manager not found
+2023-12-12 23:51:51,738 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:01,745 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:11,783 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:21,887 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:31,929 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:41,966 file.ManagerServant INFO Master manager not found
+2023-12-12 23:52:52,018 file.ManagerServant INFO Master manager not found
+2023-12-12 23:53:01,996 file.ManagerServant INFO Master manager not found

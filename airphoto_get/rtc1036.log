@@ -1,0 +1,23 @@
+2023-12-12 13:09:53,457 file.manager INFO 2.0.1
+2023-12-12 13:09:53,457 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 13:09:53,457 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-12 13:09:53,457 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-12 13:09:53,457 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-12 13:09:53,457 file.manager INFO   All right reserved.
+2023-12-12 13:09:53,457 file.manager INFO Manager starting.
+2023-12-12 13:09:53,457 file.manager INFO Starting local logging.
+2023-12-12 13:09:53,457 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-12 13:09:57,543 file.ManagerServant INFO Master manager not found
+2023-12-12 13:09:57,543 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-12 13:09:57,543 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-12-12 13:09:57,543 file.ec_base INFO setRate(1000000.000000) done
+2023-12-12 13:09:57,543 file.ec_base INFO setRate(1000.000000) done
+2023-12-12 13:09:57,543 file.rtobject INFO 1 execution context was created.
+2023-12-12 13:09:57,543 file.rtobject INFO Initial active configuration set is default.
+2023-12-12 13:10:11,708 file.ManagerServant INFO Master manager not found
+2023-12-12 13:10:21,673 file.ManagerServant INFO Master manager not found
+2023-12-12 13:10:31,747 file.ManagerServant INFO Master manager not found
+2023-12-12 13:10:41,768 file.ManagerServant INFO Master manager not found
+2023-12-12 13:10:51,789 file.ManagerServant INFO Master manager not found
+2023-12-12 13:11:01,836 file.ManagerServant INFO Master manager not found
+2023-12-12 13:11:11,865 file.ManagerServant INFO Master manager not found

@@ -1,0 +1,34 @@
+2023-11-11 14:26:59,523 file.manager INFO 2.0.1
+2023-11-11 14:26:59,523 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 14:26:59,523 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-11-11 14:26:59,523 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-11-11 14:26:59,523 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-11-11 14:26:59,523 file.manager INFO   All right reserved.
+2023-11-11 14:26:59,523 file.manager INFO Manager starting.
+2023-11-11 14:26:59,523 file.manager INFO Starting local logging.
+2023-11-11 14:27:03,107 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-11-11 14:27:07,227 file.ManagerServant INFO Master manager not found
+2023-11-11 14:27:07,227 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-11-11 14:27:07,237 file.manager INFO Component type conf file: photospot_enter.conf loaded.
+2023-11-11 14:27:07,237 file.ec_base INFO setRate(1000000.000000) done
+2023-11-11 14:27:07,237 file.ec_base INFO setRate(1000.000000) done
+2023-11-11 14:27:07,243 file.rtobject INFO 1 execution context was created.
+2023-11-11 14:27:07,243 file.rtobject INFO Initial active configuration set is default.
+2023-11-11 14:27:21,330 file.ManagerServant INFO Master manager not found
+2023-11-11 14:27:31,400 file.ManagerServant INFO Master manager not found
+2023-11-11 14:27:34,310 file.name_out ERROR Connection failed. cleanup.
+2023-11-11 14:27:34,310 file.name_out ERROR Invalid connector id: 049c9574-8053-11ee-9664-c2d068368f56
+2023-11-11 14:27:40,886 file.name_out ERROR Connection failed. cleanup.
+2023-11-11 14:27:40,886 file.name_out ERROR Invalid connector id: 08887aa6-8053-11ee-8a1f-c2d068368f56
+2023-11-11 14:27:41,453 file.ManagerServant INFO Master manager not found
+2023-11-11 14:27:51,514 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:01,529 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:11,580 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:21,584 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:31,708 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:37,679 file.OutPortConnector ERROR unkown error.
+2023-11-11 14:28:41,706 file.ManagerServant INFO Master manager not found
+2023-11-11 14:28:51,729 file.ManagerServant INFO Master manager not found
+2023-11-11 14:29:01,838 file.ManagerServant INFO Master manager not found
+2023-11-11 14:29:02,114 file.ec_base ERROR The component is not responding.
+2023-11-11 14:29:02,115 file.ec_base ERROR Unknown error: Invalid state transition.

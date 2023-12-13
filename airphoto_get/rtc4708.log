@@ -1,0 +1,33 @@
+2023-12-10 23:35:59,837 file.manager INFO 2.0.1
+2023-12-10 23:35:59,837 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 23:35:59,837 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2023-12-10 23:35:59,837 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2023-12-10 23:35:59,837 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2023-12-10 23:35:59,837 file.manager INFO   All right reserved.
+2023-12-10 23:35:59,837 file.manager INFO Manager starting.
+2023-12-10 23:35:59,837 file.manager INFO Starting local logging.
+2023-12-10 23:36:04,031 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-12-10 23:36:08,123 file.ManagerServant INFO Master manager not found
+2023-12-10 23:36:08,123 file.LocalServiceAdmin INFO All the local services are enabled.
+2023-12-10 23:36:08,123 file.manager INFO Component type conf file: airphoto_get.conf loaded.
+2023-12-10 23:36:08,139 file.ec_base INFO setRate(1000000.000000) done
+2023-12-10 23:36:08,139 file.ec_base INFO setRate(1000.000000) done
+2023-12-10 23:36:08,139 file.rtobject INFO 1 execution context was created.
+2023-12-10 23:36:08,139 file.rtobject INFO Initial active configuration set is default.
+2023-12-10 23:36:22,219 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-12-10 23:36:26,290 file.ManagerServant INFO Master manager not found
+2023-12-10 23:36:32,267 file.manager.namingmanager INFO NameServer connection failed: corba/localhost
+2023-12-10 23:36:36,352 file.ManagerServant INFO Master manager not found
+2023-12-10 23:36:38,282 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2023-12-10 23:36:38,283 file.manager.namingmanager INFO Connected to a name server: corba/localhost
+2023-12-10 23:36:42,386 file.ManagerServant INFO Master manager not found
+2023-12-10 23:36:52,436 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:02,491 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:12,548 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:22,670 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:32,698 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:39,791 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2023-12-10 23:37:42,735 file.ManagerServant INFO Master manager not found
+2023-12-10 23:37:52,758 file.ManagerServant INFO Master manager not found
+2023-12-10 23:38:02,840 file.ManagerServant INFO Master manager not found
+2023-12-10 23:38:12,876 file.ManagerServant INFO Master manager not found
